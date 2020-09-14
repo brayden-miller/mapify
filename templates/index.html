@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MAPIFY!</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/main.css') }}">
+</head>
+
+<body style="background-color: #1b1b1b;">
+
+    <!-- home section -->
+    <br/>
+    <br/>
+    <div style="text-align: center">
+        <div style="position: relative; text-align: center; color: white;">
+            <img src="https://images.unsplash.com/photo-1483247416020-58799b6de4c1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80" style="width: 75%">
+            <div>
+            <h1 style="color: #ffffff; font-size: 70px; padding-left: 30px; padding-right: 30px; z-index: 5; position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%); background-color: #2e2d2d;">Welcome to MAPIFY!</h1>
+
+            <h1 style="color: #ffffff; font-size: 30px; padding-left: 30px; padding-right: 30px; z-index: 5; position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%); background-color: #2e2d2d;">Click on World Map or US Map to get started!</h1>
+            </div>
+
+            <h1 style="color: #ffffff; font-size: 50px; padding: 20px 40px 20px 40px; z-index: 5; position: absolute; top: 60%; left: 26%; transform: translate(-50%, -50%); background-color: #2e2d2d;"><a href="/world_map" style="text-decoration: none;">World Map</a></h1>
+
+            <h1 style="color: #ffffff; font-size: 50px; padding: 20px 40px 20px 40px; z-index: 5; position: absolute; top: 60%; left: 75%; transform: translate(-50%, -50%); background-color: #2e2d2d;"><a href="/us_map" style="text-decoration: none;">&nbsp;US Map&nbsp;</a></h1>
+
+
+            <!-- <div class="bottom-left" style="position: absolute; bottom: 8px; left: 16px;">Bottom Left</div> -->
+
+        </div>
+    </div>
+    </div>
+    <br><br><br>
+
+    <!-- divider section -->
+    <div class="divider">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="divider-wrapper divider-one">
+                        <i class="fa fa-laptop"></i>
+                        <h2>Global Citizen</h2>
+                        <p>Travel around the world virtually and visually with our world map tool and become acquainted with global cultures!</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="divider-wrapper divider-two">
+                        <i class="fa fa-mobile"></i>
+                        <h2>Educational Tool</h2>
+                        <p>Quiz yourself on the locations of prominent countries and states, all while learning basic demographic information about each!</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="divider-wrapper divider-three">
+                        <i class="fa fa-life-ring"></i>
+                        <h2>Share With Friends</h2>
+                        <p>Share your map with friends! Give recommendations to others and get advice about the best places to travel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
